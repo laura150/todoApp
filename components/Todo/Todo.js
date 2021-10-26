@@ -24,10 +24,6 @@ import styles from './Todo.module.css';
       setPurpleset(!purpleset)
     }
   }
-  
-  // const allColors =[...new Set(list.map((item)=> item.color))]
-  //   console.log(allcolors)
-  
  
   const handleSubmit1 = (e)=>{
     e.preventDefault()
