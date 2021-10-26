@@ -1,0 +1,130 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: 30%;
+    margin: 30px auto;
+    box-shadow:0px 10px 20px rgb(209, 202, 202);
+    padding-bottom:30px ;
+   border-radius: 15px;
+  }
+  
+  .topbar{
+    background-color: orange;
+    padding: 20px 2px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+  }
+  .showtasksection{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: floralwhite;
+   border-bottom: 1px solid #D3D3D3;
+  
+  }
+  
+  .task{
+    color: orange;
+  }
+  
+  .individualtasks{
+    display: flex;
+   align-items: center;
+   border-bottom: 1px solid #D3D3D3;
+   padding-left: 10px;
+   padding-right: 10px;
+  }
+  .individualtasks> input {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #024bd1;
+    margin-right: 12px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    cursor: pointer;
+  
+  }
+  .individualtasks> input:checked {
+    background-color: #0288d1;
+    color: black;
+  }
+  
+  .individualtasks> input:active {
+    color: white;
+  }
+  .colorbuttonOne{
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border:none;
+    background-color: rgb(201, 84, 201);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .colorbuttonTwo{
+    width: 25px;
+    height: 25px;
+    outline: none;
+    border:none;
+    background-color: rgb(110, 224, 110);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .check{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border:none;
+    background-color: rgb(110, 224, 110);
+    border-radius: 10px;
+  }
+  .purple{
+    background-color: purple;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    margin-left: auto;
+  }
+  .green{
+    background-color: green;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    margin-left: auto;
+  }
+
+  @media screen and (max-width: 1137px) {
+ .App{
+   width: 50%;
+ }
+  }
+  @media screen and (max-width: 795px) {
+ .App{
+   width: 60%;
+ }
+  }
+  @media screen and (max-width: 630px) {
+ .App{
+   width: 70%;
+ }
+  }
+  @media screen and (max-width: 514px) {
+ .App{
+   width: 80%;
+ }
+  }
+  @media screen and (max-width: 461px) {
+ .App{
+   width: 97%;
+ }
+  }
